@@ -14,9 +14,10 @@ body{
 }
 
 .sidebar{
-    background-color: green;
+    background-color: black;
     width: 340px;
     border-radius: 1rem;
+    margin-right: 0.5rem;
 }
 
 .main-containt{
@@ -100,4 +101,32 @@ a{
 
 .icons i:hover{
     opacity: 1;
+}
+
+.lib-box{
+    margin: 0.25rem 0 1.75rem 0;
+    padding: 0.75rem 1rem;
+    height: 8rem;
+    background-color: #232323;
+    border-radius: 0.75rem;
+}
+
+.box-p1{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.box-p2{
+    font-size: 0.85rem;
+    opacity: 0.9;
+}
+
+.badge{
+    font-weight: 700;
+    background-color: #fff;
+    border: none;
+    border-radius: 100px;
+    padding: 0.25rem 0.94rem;
+    height: 2rem;
+    width: fit-content;
 }
