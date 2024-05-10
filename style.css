@@ -130,3 +130,41 @@ a{
     height: 2rem;
     width: fit-content;
 }
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.sticky-nav-icons{
+    margin-left: 0.75rem;
+}
+
+.sticky-nav-option{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-item{
+    margin-right: 1rem;
+}
+
+.dark-badge{
+    background-color: black;
+    color: white;
+}
+
+@media (max-width: 1000px){
+    .sticky-nav-icons > :nth-child(2){
+        display: none;
+    }
+    .sticky-nav-option > :nth-child(1){
+        display: none;
+    }
+}
