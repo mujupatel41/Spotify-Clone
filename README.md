@@ -11,7 +11,7 @@ Contributing
 License
 Contact
 Demo
-You can view a live demo of the project here. (Insert the link to your deployed project if available)
+You can view a live demo of the project here. https://spotify-clone-41.netlify.app/
 
 Features
 Responsive design that works on various screen sizes
